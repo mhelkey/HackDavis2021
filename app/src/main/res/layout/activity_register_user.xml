@@ -7,7 +7,7 @@
     tools:context=".RegisterUser">
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -21,54 +21,59 @@
         tools:layout_editor_absoluteY="124dp" />
 
     <EditText
-        android:id="@+id/editTextTextEmailAddress"
+        android:id="@+id/email"
         android:layout_width="213dp"
         android:layout_height="58dp"
         android:ems="10"
         android:hint="Email Address"
         android:inputType="textEmailAddress"
         tools:layout_editor_absoluteX="101dp"
-        tools:layout_editor_absoluteY="230dp" />
+        android:layout_marginTop="15dp"
+        app:layout_constraintTop_toBottomOf="@id/title" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName2"
+        android:id="@+id/fullname"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPersonName"
         android:hint="Full Name"
         tools:layout_editor_absoluteX="103dp"
-        tools:layout_editor_absoluteY="303dp" />
+        android:layout_marginTop="15dp"
+        app:layout_constraintTop_toBottomOf="@id/email" />
 
     <EditText
-        android:id="@+id/editTextNumberPassword"
+        android:id="@+id/number"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="numberPassword"
         android:hint="Phone Number"
         tools:layout_editor_absoluteX="103dp"
-        tools:layout_editor_absoluteY="367dp" />
+        android:layout_marginTop="15dp"
+        app:layout_constraintTop_toBottomOf="@id/fullname" />
 
     <EditText
-        android:id="@+id/editTextTextPostalAddress"
+        android:id="@+id/address"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPostalAddress"
         android:hint="Address"
         tools:layout_editor_absoluteX="101dp"
-        tools:layout_editor_absoluteY="440dp" />
+        android:layout_marginTop="15dp"
+        app:layout_constraintTop_toBottomOf="@id/number" />
 
     <EditText
-        android:id="@+id/editTextTextPassword"
+        android:id="@+id/password"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="Password"
         android:inputType="textPassword"
         tools:layout_editor_absoluteX="100dp"
-        tools:layout_editor_absoluteY="513dp" />
+        android:layout_marginTop="15dp"
+        app:layout_constraintTop_toBottomOf="@id/address" />
 
 
     <Button
@@ -81,7 +86,8 @@
         android:textSize="26sp"
         android:textStyle="bold"
         tools:layout_editor_absoluteX="133dp"
-        tools:layout_editor_absoluteY="611dp" />
+        android:layout_marginTop="20dp"
+        app:layout_constraintTop_toBottomOf="@id/password" />
 
     <ProgressBar
         android:id="@+id/progressBar"
@@ -89,7 +95,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:visibility="gone"
-        tools:layout_editor_absoluteX="182dp"
-        tools:layout_editor_absoluteY="543dp" />
+        tools:layout_editor_absoluteX="181dp"
+        tools:layout_editor_absoluteY="348dp" />
 
 </android.support.constraint.ConstraintLayout>
