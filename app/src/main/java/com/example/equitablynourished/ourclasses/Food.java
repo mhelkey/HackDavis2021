@@ -20,7 +20,9 @@ String printFood(void)
 
 */
 
-package Food;
+//package food;
+
+package com.example.equitablynourished;
 
 public class Food
 {

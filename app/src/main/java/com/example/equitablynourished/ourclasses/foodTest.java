@@ -20,15 +20,15 @@ String printFood(void)
 
 
 */
-//import Food.Food;
-public class test
+package com.example.equitablynourished;
+//import food.Food;
+public class foodTest
 {
 
 
 	public static void main(String[] args) 
 	{
-		Food test;
-		test.Food(100, "Smoked Bacon", 123, "Null");
+		Food test= new Food(100, "Smoked Bacon", "123", "Null");
 		System.out.println(test.printFood());
 	}
 
