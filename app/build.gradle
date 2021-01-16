@@ -1,8 +1,8 @@
 apply plugin: 'com.android.application'
-apply plugin: 'com.google.gms.google-services'// added by matthew for firebase integration
+
 
 android {
-    compileSdkVersion 28
+    compileSdkVersion 28 //changed from 28 to 30 because of suggestion by android studio -matthew
     defaultConfig {
         applicationId "com.example.equitablynourished"
         minSdkVersion 22
@@ -21,7 +21,8 @@ android {
 
 dependencies {
     // Import the BoM for the Firebase platform
-    implementation platform('com.google.firebase:firebase-bom:26.3.0') //added by matthew for firebase integration
+//    implementation platform('com.google.firebase:firebase-bom:26.3.0') //added by matthew for firebase integration
+
 
     // Declare the dependency for the Cloud Firestore library
     // When using the BoM, you don't specify versions in Firebase library dependencies
@@ -30,15 +31,18 @@ dependencies {
     //implementation 'com.google.firebase:firebase-firestore' // added by matthew for firebase integration
 
     //suggested instead of the above line from stack overflow
-//    implementation 'com.google.firebase:firebase-core:16.0.5'
-//    implementation 'com.google.firebase:firebase-auth:16.0.5'
-//    implementation 'com.google.firebase:firebase-database:16.0.5'
+    implementation 'com.google.firebase:firebase-core:18.0.1'
+    implementation 'com.google.firebase:firebase-auth:20.0.2'
+    implementation 'com.google.firebase:firebase-database:19.6.0'
 
 
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation 'com.android.support:appcompat-v7:28.0.0'
     implementation 'com.android.support.constraint:constraint-layout:2.0.4'
+    implementation 'com.google.firebase:firebase-bom:26.3.0'
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
 }
+
+apply plugin: 'com.google.gms.google-services'// added by matthew for firebase integration
