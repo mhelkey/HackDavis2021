@@ -21,15 +21,15 @@ String printFood(void)
 
 */
 //import Food.Food;
-public class test
+public class foodTest
 {
 
 
 	public static void main(String[] args) 
 	{
-		Food test;
-		test.Food(100, "Smoked Bacon", 123, "Null");
-		System.out.println(test.printFood());
+//		Food test;
+//		test.Food(100, "Smoked Bacon", 123, "Null");
+//		System.out.println(test.printFood());
 	}
 
 }
