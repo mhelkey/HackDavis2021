@@ -20,7 +20,7 @@ String printFood(void)
 
 */
 
-package Food;
+//package food;
 
 public class Food
 {
