@@ -1,4 +1,5 @@
 apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'// added by matthew for firebase integration
 
 android {
     compileSdkVersion 28
