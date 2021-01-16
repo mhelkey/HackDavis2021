@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1033314631415",
+    "project_id": "hackdavis2021-fooddatabase",
+    "storage_bucket": "hackdavis2021-fooddatabase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1033314631415:android:ceb8545e1a3dbf37385df2",
+        "android_client_info": {
+          "package_name": "com.example.equitablynourished"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1033314631415-ksuj5ujrhvj0dgui4m5j5d2n0a3j03lo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbJPBSzNsNogGh7WGZ1nKXCaXXjWBsZ2w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1033314631415-ksuj5ujrhvj0dgui4m5j5d2n0a3j03lo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
