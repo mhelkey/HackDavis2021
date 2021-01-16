@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/HackDavis2021.iml" filepath="$PROJECT_DIR$/.idea/HackDavis2021.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/HackDavis2021.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/HackDavis2021.app.iml" />
     </modules>
   </component>
 </project>
