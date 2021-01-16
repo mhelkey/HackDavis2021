@@ -20,6 +20,21 @@ android {
 }
 
 dependencies {
+    // Import the BoM for the Firebase platform
+    implementation platform('com.google.firebase:firebase-bom:26.3.0') //added by matthew for firebase integration
+
+    // Declare the dependency for the Cloud Firestore library
+    // When using the BoM, you don't specify versions in Firebase library dependencies
+
+    //READMEE::: WHEN I UNCOMMENT THE LINE BELOW, THE BUILD WONT MERGE CORRECTLY
+    //implementation 'com.google.firebase:firebase-firestore' // added by matthew for firebase integration
+
+    //suggested instead of the above line from stack overflow
+//    implementation 'com.google.firebase:firebase-core:16.0.5'
+//    implementation 'com.google.firebase:firebase-auth:16.0.5'
+//    implementation 'com.google.firebase:firebase-database:16.0.5'
+
+
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation 'com.android.support:appcompat-v7:28.0.0'
     implementation 'com.android.support.constraint:constraint-layout:2.0.4'
