@@ -20,7 +20,7 @@
 
 
     <!-- Collect Page -->
-    <string name="Collect_page_title"> You are now in Collect view. </string>
+    <string name="collect_page_title"> You are now in Collect view. </string>
 
     <!-- common for both of the above pages -->
     <string name="Confirm_address">Please confirm your address and phone number:</string>
