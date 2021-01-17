@@ -36,8 +36,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.databasetest:
                 //runs the databasetest function if the button is pressed
-                DataBaseTest test = new DataBaseTest();
-                test.basicReadWrite();
+                Food food = new Food(145, "ASUCD Pantry", "Memorial Union, 1 Shields Ave #154, Davis, CA 956161525 State St, Santa Barbara, CA 93101");
+                PopulateFoodBankDataBase test = new PopulateFoodBankDataBase();
+                test.basicReadWrite(food);
                 break;
         }
     }
