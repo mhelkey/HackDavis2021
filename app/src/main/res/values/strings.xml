@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">Equitably Nourished</string>
+
+    <string name="forgot_password_str">Forgot Password?</string>
+    <string name="register_str">Register</string>
+    <string name="login_button_str">LOGIN</string>
+    <string name="email_hint">Email address</string>
+    <string name="password_hint">Password</string>
+
+    <string name="home_title">Select one of the below to continue</string>
+    <string name="account_settings">Account settings</string>
+    <string name="home_page_function_sample">Donate or collect</string>
+    <string name="history_button_str">View history</string>
+
 </resources>
