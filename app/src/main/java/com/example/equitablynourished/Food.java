@@ -20,6 +20,7 @@ String printFood(void)
 
 */
 
+package com.example.equitablynourished;
 //package food;
 
 public class Food
@@ -54,10 +55,7 @@ public class Food
 			numItems = num;
 		}
 	}
-	public void setImageName(String name)
-	{
-		imageName = name;
-	}
+
 
 
 	public int returnNumItems()
@@ -72,15 +70,12 @@ public class Food
 	{
 		return itemName;
 	}
-	public String returnImageName()
-	{
-		return imageName;
-	}
+
 
 	public String printFood()
 	{
-		String temp = itemName + " Num: " + numItems + ". Barcode: " + barcode;
-		return temp;
+		return itemName + " Num: " + numItems + ". Barcode: " + barcode;
+
 	}
 
 }
