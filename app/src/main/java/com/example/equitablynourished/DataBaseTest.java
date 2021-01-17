@@ -1,4 +1,4 @@
-package com.google.firebase.referencecode.database;
+package com.example.equitablynourished;
 
 import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
