@@ -9,11 +9,11 @@
 
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/register"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="33dp"
-        android:layout_marginBottom="51dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginBottom="92dp"
         android:backgroundTint="#0ED6B9"
         android:text="Register"
         android:textColor="#ffffff"
@@ -21,8 +21,10 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="@+id/address"
+        app:layout_constraintTop_toBottomOf="@+id/address"
         tools:layout_conversion_absoluteHeight="54dp"
-        tools:layout_conversion_absoluteWidth="144dp" />
+        tools:layout_conversion_absoluteWidth="144dp"
+        android:layout_marginTop="65dp"/>
 
     <EditText
         android:id="@+id/email"
@@ -49,7 +51,7 @@
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.346"
+        app:layout_constraintVertical_bias="0.216"
         tools:layout_conversion_absoluteHeight="45dp"
         tools:layout_conversion_absoluteWidth="210dp" />
 
@@ -92,13 +94,12 @@
         tools:layout_conversion_absoluteHeight="45dp"
         tools:layout_conversion_absoluteWidth="210dp" />
 
-    <EditText
+    <TextView
         android:id="@+id/title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
         android:fontFamily="sans-serif-black"
-        android:inputType="textPersonName"
         android:text="Equitably Nourished"
         android:textAlignment="center"
         android:textSize="30sp"
@@ -108,7 +109,7 @@
         app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.125"
+        app:layout_constraintVertical_bias="0.088"
         tools:layout_conversion_absoluteHeight="61dp"
         tools:layout_conversion_absoluteWidth="409dp" />
 
