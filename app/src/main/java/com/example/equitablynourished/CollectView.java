@@ -20,11 +20,12 @@ public class CollectView extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_collect_view);
         //get data and change the address label
-        String data = "";
+
 
         ValueEventListener Single = new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
+                String data = "";
                 // Get Post object and use the values to update the UI
                 data = dataSnapshot.getValue(String.class);
                 // ...
