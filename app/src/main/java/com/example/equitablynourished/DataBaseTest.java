@@ -28,7 +28,7 @@ public class DataBaseTest extends AppCompatActivity {
         FirebaseDatabase database = FirebaseDatabase.getInstance();
         DatabaseReference myRef = database.getReference("message");
 
-        myRef.setValue("Hello, World!");
+        myRef.setValue("Chortle my balls, said Gilfoyle");
         // [END write_message]
 
         // [START read_message]

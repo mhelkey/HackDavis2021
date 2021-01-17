@@ -11,6 +11,7 @@ import android.content.Intent;
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     private TextView register;
+    private TextView databasetest;
 
     @Override // Starter Code
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,6 +21,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         // Checks to see if "Register" Button is Pressed
         register = (TextView) findViewById(R.id.register);
         register.setOnClickListener((View.OnClickListener) this);
+
+        databasetest = (TextView) findViewById(R.id.databasetest);
+        databasetest.setOnClickListener((View.OnClickListener) this);
     }
 
     @Override // Runs is any button is pressed
@@ -29,6 +33,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.register:
                 // Takes User to Registration Page
                 startActivity(new Intent(this, RegisterUser.class));
+                break;
+            case R.id.databasetest:
+                //runs the databasetest function if the button is pressed
+                DataBaseTest test = new DataBaseTest();
+                test.basicReadWrite();
                 break;
         }
     }

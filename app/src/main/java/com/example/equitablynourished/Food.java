@@ -20,6 +20,7 @@ String printFood(void)
 
 */
 
+package com.example.equitablynourished;
 //package food;
 
 public class Food
@@ -27,26 +28,17 @@ public class Food
 
 	private int numItems;
 
-	private String itemName, imageName, barcode; //idk how else to store images in java yet
+	private String itemName, barcode; //idk how else to store images in java yet
 
-	public Food(int num, String name, String code, String imageName)
+	public Food(int num, String name, String code)
 	{
+		setNum(num);
 		setBarCode(code);
 		setName(name);
-
-
 	}
 	public void setBarCode(String code) //sets the barcode
 	{
-		if(code.length() == 12) //checks if barcode is 12 digits (which is how long barcodes are)
-		{
-			barcode = code;
-		}
-		else
-		{
-			barcode = "111222333444";
-		}
-
+		barcode = code;
 	}
 	public void setName(String name) //sets name of food item
 	{
@@ -63,10 +55,7 @@ public class Food
 			numItems = num;
 		}
 	}
-	public void setImageName(String name)
-	{
-		imageName = name;
-	}
+
 
 
 	public int returnNumItems()
@@ -81,15 +70,12 @@ public class Food
 	{
 		return itemName;
 	}
-	public String returnImageName()
-	{
-		return imageName;
-	}
+
 
 	public String printFood()
 	{
-		String temp = itemName + " Num: " + numItems + ". Barcode: " + barcode;
-		return temp;
+		return itemName + " Num: " + numItems + ". Barcode: " + barcode;
+
 	}
 
 }
