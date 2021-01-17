@@ -35,4 +35,5 @@ public class HomePage extends AppCompatActivity {
     public void openAccountSettings(View view){
 
     }
+
 }
