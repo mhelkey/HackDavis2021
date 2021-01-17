@@ -9,7 +9,7 @@
 
     <string name="home_title">Select one of the below to continue</string>
     <string name="account_settings">Account settings</string>
-    <string name="home_page_function_sample">Donate/collect</string>
+    <string name="home_page_function_sample">Donate or collect</string>
     <string name="history_button_str">View history</string>
 
 </resources>
