@@ -6,4 +6,35 @@
     android:layout_height="match_parent"
     tools:context=".HomePage">
 
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="154dp"
+        android:layout_height="45dp"
+        android:text="@string/home_page_function_sample"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="372dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/account_settings"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="513dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="238dp"
+        android:layout_height="86dp"
+        android:text="@string/home_title"
+        tools:layout_editor_absoluteX="86dp"
+        tools:layout_editor_absoluteY="34dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/history_button_str"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="443dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
