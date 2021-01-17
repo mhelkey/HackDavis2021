@@ -26,7 +26,7 @@ public class CollectView extends AppCompatActivity {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
                 // Get Post object and use the values to update the UI
-                data = dataSnapshot.getValue(String.class);
+                //data = dataSnapshot.getValue(String.class);
                 // ...
             }
 
@@ -37,7 +37,7 @@ public class CollectView extends AppCompatActivity {
         };
         FirebaseDatabase.getInstance().getReference("message").addListenerForSingleValueEvent(Single);
         TextView address = (TextView) findViewById(R.id.textView5);
-        address.setText("");
+        //address.setText("");
     }
 
     // method to call when the `correct` address button is pressed
