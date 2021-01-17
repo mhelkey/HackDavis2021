@@ -24,5 +24,7 @@
 
     <!-- common for both of the above pages -->
     <string name="Confirm_address">Please confirm your address and phone number:</string>
+    <string name="all_good">This is correct</string>
+    <string name="some_bad">There is a mistake</string>
 
 </resources>
