@@ -12,19 +12,22 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     private TextView register;
 
-    @Override
+    @Override // Starter Code
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        // Checks to see if "Register" Button is Pressed
         register = (TextView) findViewById(R.id.register);
         register.setOnClickListener((View.OnClickListener) this);
     }
 
-    @Override
+    @Override // Runs is any button is pressed
     public void onClick(View v) {
         switch (v.getId()){
+            // Logic for Register Button
             case R.id.register:
+                // Takes User to Registration Page
                 startActivity(new Intent(this, RegisterUser.class));
                 break;
         }
