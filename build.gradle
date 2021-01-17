@@ -9,7 +9,8 @@ buildscript {
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:4.1.1'
-        classpath 'com.google.gms:google-services:4.3.0' //based on stack overflow discussion: https://stackoverflow.com/questions/39892622/plugin-with-id-com-google-gms-google-services-not-found
+        classpath 'com.google.gms:google-services:4.3.3'
+        //based on stack overflow discussion: https://stackoverflow.com/questions/39892622/plugin-with-id-com-google-gms-google-services-not-found
 
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
