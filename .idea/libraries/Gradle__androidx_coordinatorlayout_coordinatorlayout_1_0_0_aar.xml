@@ -8,9 +8,15 @@
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fda3d71ee2fedb604f7b377b984c8f7a/coordinatorlayout-1.0.0/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fda3d71ee2fedb604f7b377b984c8f7a/coordinatorlayout-1.0.0/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fda3d71ee2fedb604f7b377b984c8f7a/coordinatorlayout-1.0.0/AndroidManifest.xml" />
+=======
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e56ac3892347641d2400364f712a5ab9/coordinatorlayout-1.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e56ac3892347641d2400364f712a5ab9/coordinatorlayout-1.0.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e56ac3892347641d2400364f712a5ab9/coordinatorlayout-1.0.0/res" />
+>>>>>>> Stashed changes
 =======
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e56ac3892347641d2400364f712a5ab9/coordinatorlayout-1.0.0/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e56ac3892347641d2400364f712a5ab9/coordinatorlayout-1.0.0/AndroidManifest.xml" />
