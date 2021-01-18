@@ -3,16 +3,16 @@
 this is an OOP class 
 it will have food name, number, barcode, and pointer to an image of said food
 
-Food(int num, String name, int code, String imageName)
+Food(int num, String name, int code)
 
 void setBarCode(int code) //sets the barcode
 void setName(String name) //sets the name of fooditem
 void setNum(int num) //sets num of food items
 
-int returnNumItems(void)
+int returnNumitems(void)
 int returnBarCode(void)
-String returnItemName(void)
-String returnImageName(void)
+String returnItemname(void)
+
 
 
 String printFood(void)
@@ -20,76 +20,60 @@ String printFood(void)
 
 */
 
+package com.example.equitablynourished;
 //package food;
 
 public class Food
 {
 
-	private int numItems;
+	public int numitems;
 
-	private String itemName, imageName, barcode; //idk how else to store images in java yet
+	public String itemname, barcode; //idk how else to store images in java yet
 
-	public Food(int num, String name, String code, String imageName)
+	public Food(int num, String name, String code)
 	{
-		setBarCode(code);
-		setName(name);
-
-
+		setnumitems(num);
+		setbarcode(code);
+		setname(name);
 	}
-	public void setBarCode(String code) //sets the barcode
+	public void setbarcode(String code) //sets the barcode
 	{
-		if(code.length() == 12) //checks if barcode is 12 digits (which is how long barcodes are)
-		{
-			barcode = code;
-		}
-		else
-		{
-			barcode = "111222333444";
-		}
-
+		barcode = code;
 	}
-	public void setName(String name) //sets name of food item
+	public void setname(String name) //sets name of food item
 	{
-		itemName = name;
+		itemname = name;
 	}
-	public void setNum(int num) //sets num of food items
+	public void setnumitems(int num) //sets num of food items
 	{
 		if(num < 0)
 		{
-			numItems = 0;
+			numitems = 0;
 		}
 		else
 		{
-			numItems = num;
+			numitems = num;
 		}
 	}
-	public void setImageName(String name)
-	{
-		imageName = name;
-	}
 
 
-	public int returnNumItems()
+
+	public int returnnumitems()
 	{
-		return numItems;
+		return numitems;
 	}
-	public String returnBarCode()
+	public String returnbarcode()
 	{
 		return barcode;
 	}
-	public String returnItemName()
+	public String returnitemname()
 	{
-		return itemName;
+		return itemname;
 	}
-	public String returnImageName()
-	{
-		return imageName;
-	}
+
 
 	public String printFood()
 	{
-		String temp = itemName + " Num: " + numItems + ". Barcode: " + barcode;
-		return temp;
+		return itemname + " Num: " + numitems + ". Barcode: " + barcode;
 	}
-
 }

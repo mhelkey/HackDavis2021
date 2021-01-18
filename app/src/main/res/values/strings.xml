@@ -16,11 +16,15 @@
     <string name="history_button_str">View history</string>
 
     <!-- Donate Page -->
-    <string name="donate_page_title"> You are now in Donate view.
-        Enter the following details to proceed.</string>
+    <string name="donate_page_title"> You are now in Donate view.</string>
 
 
     <!-- Collect Page -->
-    <string name="Collect_page_title"> You are now in Collect view. Please confirm the following details: </string>
+    <string name="collect_page_title"> You are now in Collect view. </string>
+
+    <!-- common for both of the above pages -->
+    <string name="Confirm_address">Please confirm your address and phone number:</string>
+    <string name="all_good">This is correct</string>
+    <string name="some_bad">There is a mistake</string>
 
 </resources>
