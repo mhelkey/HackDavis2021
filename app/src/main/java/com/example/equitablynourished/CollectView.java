@@ -29,9 +29,6 @@ public class CollectView extends AppCompatActivity {
             public void onDataChange(DataSnapshot dataSnapshot) {
                 String data = "";
                 // Get Post object and use the values to update the UI
-<<<<<<< HEAD
-                //data = dataSnapshot.getValue(String.class);
-=======
                 data = dataSnapshot.getValue(String.class);
 
                 ArrayList<String> list = new ArrayList<String>();
@@ -40,7 +37,6 @@ public class CollectView extends AppCompatActivity {
                 list.add("Santa Barbara Food Bank Num: 1212. Barcode: 1525 State St, Santa Barbara, CA 93101");
                 list.add("Yolo Food Bank Num: 12. Barcode: 233 Harter Ave, Woodland, CA 95776");
 
->>>>>>> ed8d6dfbe3cc5d5452c0fcfadef84a1c41067591
                 // ...
             }
 
@@ -56,7 +52,8 @@ public class CollectView extends AppCompatActivity {
 
     // method to call when the `correct` address button is pressed
     public void onAddressConfirmation(View view){
-
+        Intent intent = new Intent(this, CollectorMapView.class);
+        startActivity(intent);
     }
     //method to call when teh `wrong` address button is pressed
     public void onAddressDenied(View view){
